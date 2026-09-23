@@ -35,6 +35,13 @@ a.icon-link:hover {
   position: fixed;
   top: 0;
   left: 0;
+
+  /*Background properties*/
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  z-index: 1000;
 }
 
 .nav-title-link {

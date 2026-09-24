@@ -188,6 +188,13 @@ body {
       height: auto;
     }
 
+/* Video Container*/
+.video-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  width: 100%;
+}
+
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {

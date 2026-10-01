@@ -69,8 +69,22 @@
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
         <div class="main-title">Unreal Engine 5 RPG</div>
-        <div class="body-text">A small description about the project goes here, get the reader hooked on the project and tell them why they should continue to read this page. Give it a sweet tagline.</div>
-        <image class="project-header-image" src="../assets/images/desktop.jpeg">
+        <div class="body-text">This unannounced project is an RPG built using Unreal Engine 5.8, developed entirely by me using C++ and Blueprints over the course of about a year and a half. I started with version 5.5 and gradually updated it until I reached the latest version of Unreal Engine.</div>
+		<div class="body-text">I am currently continuing to develop it, with its main features centring on the use of GAS and, as the core mechanic, the Dungeons & Dragons skill checks seen in Baldur’s Gate 3, turning this into a skill-based game.</div>
+		<div class="body-text">The game loop is inspired by the RPG *Blades in the Dark*. The player explores the city with a criminal gang to gather information needed to complete an operation. Once gathered, they carry out the operation as a skill check. Finally, they use the results to improve their crew.</div>
+        <div class="body-text"><b><u>If you want to see code, ask me.</u></b></div>
+		<div>
+			<h3>Features</h3>
+			<ul>
+				<li>Gameplay Ability System (GAS)</li>
+				<li>Inventory System</li>
+				<li>Player RPG Party</li>
+				<li>Widgets animations and Cards</li>
+				<li>Dialogue System</li>
+				<li>Quest System</li>
+			</ul>
+		</div>
+		<image class="project-header-image" src="../assets/images/img-unreal-rpg/territory-with-card.png">
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -80,13 +94,41 @@
         - Change the 'subheader-text' to whatever header you want for project details
         - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
       -->
-      <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
-        <div class="project-details-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
-        </div>
-      </div>
+    	<div id="project-details">
+    		<div class="subheader-text">Project details</div>
+    		<div class="project-details-content">
+        		<div class="body-text">
+					<ul>
+						<li>Designed a skill-based testing system inspired by Baldur’s Gate 3 and Citizen Sleeper.</li>
+						<li>Gameplay Ability System
+							<ul>
+								<li>Gameplay ability execution on player targets and party characters.</li>
+								<li>Gameplay effects application with different times.</li>
+								<li>Gameplay effect calcultation for resistance and damage types.</li>
+								<li>Gameplay events for triggered abilities.</li>
+								<li>Data assets and data tables for static data.</li>
+								<li>Attribute sets for different types of characters</li>
+							</ul>
+						</li>
+						<li>Designed and Implemented the User Interface (UI) and UX:
+							<ul>
+								<li>Implemented HUD.</li>
+								<li>Implemented card drag and drop system.</li>
+								<li>Implemented widget animations when gameplay abilities are executed.</li>
+								<li>Tooltip system for player information.</li>
+							</ul>
+						</li>
+						<li>Implementation of a dialogue system.</li>
+						<li>Game calendar for events.</li>
+						<li>Reputation system with factions based on Fallout: New Vegas.</li>
+						<li>Day night cycle.</li>
+						<li>Enviroment interactables: chests, containers, levers and buttons.</li>
+						<li>Quest System.</li>
+						<li>Inventory System</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
       <!-- IMAGE GALLERY -->
       <div id="project-gallery">
@@ -117,16 +159,24 @@
                   - IMAGE_CAPTION: to the caption of the image
             -->
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <img src="../assets/images/img-unreal-rpg/PointOfInterest.png" class="gallery-image">
+              <span class="image-caption">A game location with a button, door and NPC.</span>
             </div>
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <img src="../assets/images/img-unreal-rpg/Dialogue-system.png" class="gallery-image">
+              <span class="image-caption">Dialogue panel overview.</span>
+            </div>
+			<div class="gallery-image-container">
+              <img src="../assets/images/img-unreal-rpg/context-menu.png" class="gallery-image">
+              <span class="image-caption">Contextual menu to open chest.</span>
             </div>
             <div class="gallery-image-container">
-              <img src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <img src="../assets/images/img-unreal-rpg/skill-check.png" class="gallery-image">
+              <span class="image-caption">Skill check game inspired on Baldur's Gate 3.</span>
+            </div>
+			<div class="gallery-image-container">
+              <img src="../assets/images/img-unreal-rpg/ability-tooltip.png" class="gallery-image">
+              <span class="image-caption">Tooltip to see ability description.</span>
             </div>
         </div>
       </div>
